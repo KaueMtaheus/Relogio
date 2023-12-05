@@ -22,8 +22,8 @@ main {
 }
 
 .clock {
-    width: 600px;
-    height: 600px;
+    min-width: 600px;
+    min-height: 600px;
     background-color: rgba(255, 255, 255, 0.534);
     border-radius: 600px;
     border: 15px solid black;
