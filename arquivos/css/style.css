@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-attachment: fixed;
+    background: url(../img/water-5386820_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+main {
+    min-width: 100%;
+    min-height: 100vh;
+}
+
+.clock {
+    width: 600px;
+    height: 600px;
+    background-color: rgba(255, 255, 255, 0.534);
+    border-radius: 600px;
+    border: 15px solid black;
+}
