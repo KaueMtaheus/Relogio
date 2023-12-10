@@ -10,7 +10,7 @@ const getTime = () => {
 
     return {
         hours: date.getHours(),
-        minutes: date.getMinutes(),
+        minutes: date.getMinutes(),  
         seconds: date.getSeconds(),
     };
 };
