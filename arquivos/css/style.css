@@ -6,11 +6,19 @@
 }
 
 body {
-    background-attachment: fixed;
-    background: url(../img/water-5386820_1280.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     margin: 0;
+}
+
+#background-video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -1;
 }
 
 main {
@@ -24,7 +32,7 @@ main {
 .clock {
     min-width: 600px;
     min-height: 600px;
-    background-color: rgba(255, 255, 255, 0.534);
+    background-color: rgba(0, 0, 0, 0.437);
     border-radius: 600px;
     border: 15px solid black;
     position: relative;
@@ -38,6 +46,7 @@ main {
     font-weight: 700;
     position: absolute;
     width: 100%;
+    color: white;
     height: 100%;
     text-align: center;
     padding: 10px;
